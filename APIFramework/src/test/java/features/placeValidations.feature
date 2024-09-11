@@ -10,8 +10,8 @@ Scenario Outline: Verify if Place is being Succesfully added using AddPlaceAPI
 	
 Examples:
 	|name 	 | language |address		   |
-	|AAhouse |  English |World cross center|
-#	|BBhouse | Spanish  |Sea cross center  |
+	|AAhouse |  French  |World cross center|
+	|BBhouse | Spanish  |Sea cross center  |
 
 @DeletePlace @Regression
 Scenario: Verify if Delete Place functionality is working
